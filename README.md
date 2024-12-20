@@ -12,6 +12,29 @@ This project is an Ethereum blockchain parser that allows users to subscribe to 
 
 ---
 
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:vlasfama/ethereum_parser.git
+   cd ethereum-parser
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   go mod tidy
+   ```
+
+3. Build the project:
+
+   ```bash
+   make build
+   ```
+
+---
+
 ## Commands
 
 ### Start the Server
@@ -88,29 +111,6 @@ Send Ethereum transactions:
       "block": 1234567
   }
   ```
-
----
-
-## Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/ethereum-parser.git
-   cd ethereum-parser
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   go mod tidy
-   ```
-
-3. Build the project:
-
-   ```bash
-   make build
-   ```
 
 ---
 
