@@ -42,7 +42,7 @@ This project is an Ethereum blockchain parser that allows users to subscribe to 
 Run the server to monitor blockchain transactions:
 
 ```bash
-./eth-tx-parser start --rpc-url="https://ethereum-sepolia-rpc.publicnode.com" --port=8080 --log-level=info
+./build/eth-tx-parser start --rpc-url="https://ethereum-sepolia-rpc.publicnode.com" --port=8080 --log-level=info
 ```
 
 ### Generate a New Key Pair
@@ -50,7 +50,7 @@ Run the server to monitor blockchain transactions:
 Create a new Ethereum key pair:
 
 ```bash
-./eth-tx-parser create_key
+./build/eth-tx-parser create_key
 ```
 
 ### Send a Transaction
@@ -58,7 +58,7 @@ Create a new Ethereum key pair:
 Send Ethereum transactions:
 
 ```bash
-./eth-tx-parser send --private-key="YOUR_PRIVATE_KEY" --to-address="0xRecipientAddress" --value="1000000000000000000" --rpc-url="https://ethereum-sepolia-rpc.publicnode.com"
+./build/eth-tx-parser send --private-key="YOUR_PRIVATE_KEY" --to-address="0xRecipientAddress" --value="1000000000000000000" --rpc-url="https://ethereum-sepolia-rpc.publicnode.com"
 ```
 
 ---
